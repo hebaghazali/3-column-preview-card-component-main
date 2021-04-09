@@ -40,18 +40,15 @@ body {
   border-bottom-right-radius: 8px;
 }
 
-.sedans,
-.sedans .card a {
+.sedans {
   background-color: #e28625;
 }
 
-.suvs,
-.suvs .card a {
+.suvs {
   background-color: #006971;
 }
 
-.luxury,
-.luxury .card a {
+.luxury {
   background-color: #004140;
 }
 
@@ -100,4 +97,16 @@ body {
   background-color: transparent;
   border: 2px #fff solid;
   color: #fff;
+}
+
+.sedans a {
+  color: #e28625;
+}
+
+.suvs a {
+  color: #006971;
+}
+
+.luxury a {
+  color: #004140;
 }
