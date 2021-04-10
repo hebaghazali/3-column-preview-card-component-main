@@ -112,6 +112,10 @@ body {
   color: #004140;
 }
 
+.attribution {
+  margin-bottom: 10px;
+}
+
 @media only screen and (max-width: 965px) {
   .card-container {
     flex-direction: column;
