@@ -16,28 +16,35 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .card-container {
-  width: 57.5rem;
+  margin: 88px 0;
   display: flex;
+  align-items: center;
 }
 
 .card {
-  width: 307px;
-  height: 500px;
+  width: 19.18rem;
+  height: 31.25rem;
   position: relative;
 }
 
 .card:nth-child(1) {
-  border-top-left-radius: 8px;
-  border-bottom-left-radius: 8px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
 }
 
 .card:nth-child(3) {
-  border-top-right-radius: 8px;
-  border-bottom-right-radius: 8px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
 }
 
 .sedans {
@@ -109,4 +116,10 @@ body {
 
 .luxury a {
   color: #004140;
+}
+
+@media only screen and (max-width: 965px) {
+  .card-container {
+    flex-direction: column;
+  }
 }
