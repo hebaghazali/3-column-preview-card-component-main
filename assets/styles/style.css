@@ -21,6 +21,7 @@ body {
 
 .card-container {
   margin-top: 171px;
+  margin-bottom: 129px;
   display: flex;
   align-items: center;
 }
@@ -115,13 +116,13 @@ body {
 }
 
 .attribution {
-  margin-top: 10px;
+  margin: 10px 0;
 }
 
 @media only screen and (max-width: 965px) {
   .card-container {
     flex-direction: column;
-    margin-top: 88px;
+    margin: 88px 0;
   }
 
   .card:nth-child(1) {
