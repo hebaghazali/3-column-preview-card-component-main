@@ -20,7 +20,7 @@ body {
 }
 
 .card-container {
-  margin: 171px 0;
+  margin-top: 171px;
   display: flex;
   align-items: center;
 }
@@ -115,13 +115,13 @@ body {
 }
 
 .attribution {
-  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 @media only screen and (max-width: 965px) {
   .card-container {
     flex-direction: column;
-    margin: 88px 0;
+    margin-top: 88px;
   }
 
   .card:nth-child(1) {
