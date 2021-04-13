@@ -9,7 +9,8 @@
 body {
   font-family: 'Lexend Deca', sans-serif;
   font-size: 93.75%;
-  overflow-y: hidden;
+  /* overflow-y: hidden; */
+  background-color: #f2f2f2;
 }
 
 .container {
@@ -119,14 +120,10 @@ body {
 
 .attribution {
   position: absolute;
-  bottom: 90px;
+  bottom: 15px;
 }
 
 @media only screen and (max-width: 965px) {
-  body {
-    overflow-y: scroll;
-  }
-
   .card-container {
     flex-direction: column;
     margin: 88px 0;
@@ -142,9 +139,5 @@ body {
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
     border-top-right-radius: 0;
-  }
-
-  .attribution {
-    bottom: 20px;
   }
 }
