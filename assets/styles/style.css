@@ -123,6 +123,10 @@ body {
 }
 
 @media only screen and (max-width: 965px) {
+  body {
+    overflow-y: scroll;
+  }
+
   .card-container {
     flex-direction: column;
     margin: 88px 0;
@@ -138,5 +142,9 @@ body {
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
     border-top-right-radius: 0;
+  }
+
+  .attribution {
+    bottom: 20px;
   }
 }
